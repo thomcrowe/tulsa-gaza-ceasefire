@@ -20,7 +20,7 @@ const days = [
     speakers: [
       {
         name: "Rev. Dn. John Habibi",
-        role: "Palestinian-American Deacon | Sanctuary",
+        role: "Deacon | Sanctuary",
         image:johnhabibiImage,
       },
       {

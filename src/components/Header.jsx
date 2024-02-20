@@ -20,7 +20,7 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href="https://facebook.com/">Walk with us!</Button>
+          <Button href="https://www.facebook.com/events/1094111395166350/">Walk with us!</Button>
         </div>
       </Container>
     </header>

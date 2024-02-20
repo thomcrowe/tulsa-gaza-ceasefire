@@ -39,7 +39,7 @@ export function CFP() {
                 Signup on our Facebook Event Page <span aria-hidden="true">&darr;</span>
               </h3>
               <div className="mt-5 flex py-2.5 pr-2.5">
-                <Button href="https://facebook.com/">
+                <Button href="https://www.facebook.com/events/1094111395166350/">
                   <span className="sr-only sm:not-sr-only">Register</span>
                   <span className="sm:hidden">
                     <ArrowRightIcon className="h-6 w-6" />
