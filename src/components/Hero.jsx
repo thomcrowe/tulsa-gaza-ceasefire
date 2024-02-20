@@ -8,7 +8,7 @@ export function Hero() {
       <BackgroundImage className="-bottom-14 -top-36" />
       <Container className="relative">
         <div className="mx-auto max-w-xl lg:max-w-4xl lg:px-12">
-          <h1 className="font-display text- xl font-bold tracking-tighter text-red-700 sm:text-6xl">
+          <h1 className="font-display text-2xl font-bold tracking-tighter text-red-700 sm:text-6xl">
             Gaza Ceasefire Pilgramige | Tulsa, OK
           </h1>
           <div className="mt-6 space-y-6 font-display text-xl tracking-tight">
