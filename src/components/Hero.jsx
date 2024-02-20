@@ -20,7 +20,7 @@ export function Hero() {
             {[
               ['Start', '3/30 6am'],
               ['Distance', '19.8 miles'],
-              ['Homebase', '306 Phoenix House'],
+              ['Homebase', 'Belafonte | 306 S Phoenix'],
               ['City', 'Tulsa'],
             ].map(([name, value]) => (
               <div key={name}>

@@ -31,7 +31,7 @@ const days = [
       },
       {
         name: "Chris McCabe",
-        role: "Owner | 306 Phoenix House",
+        role: "Owner | Belafonte",
         image: chrismccabeImage,
         ln: "https://www.linkedin.com/in/wisniewskitomasz/"
       },   

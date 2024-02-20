@@ -15,7 +15,7 @@ const schedule = [
       'We will prayerfully walk the distance Palestianian families are walking in search of safety throughout our community',
     timeSlots: [
       {
-        name: '306 Phoenix House',
+        name: 'Belafonte | 306 S Phoenix',
         description: 'Gather and begin our pilgramage',
         start: '6:00AM',
       },
