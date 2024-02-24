@@ -5,13 +5,14 @@ import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import chrismccabeImage from '@/images/avatars/organizers/chris-mccabe.jpg';
 import rachelkauffmanImage from '@/images/avatars/organizers/rachel-kauffman.jpg';
 import johnhabibiImage from '@/images/avatars/organizers/john-habibi.jpg';
+import paulpainoImage from '@/images/avatars/organizers/paul-paino.jpg';
 
 const days = [
   {
@@ -22,19 +23,24 @@ const days = [
         name: "Rev. Dn. John Habibi",
         role: "Deacon | Sanctuary",
         image:johnhabibiImage,
+        ln: "https://twitter.com/johnhabibi"
       },
       {
         name: "Rachel Kauffman",
         role: "Bio Needed | More Info Here",
         image: rachelkauffmanImage,
-        ln: "https://www.linkedin.com/in/kajldfalkdj/"
       },
       {
         name: "Chris McCabe",
         role: "Owner | Belafonte",
         image: chrismccabeImage,
-        ln: "https://www.linkedin.com/in/wisniewskitomasz/"
-      },   
+      },
+      {
+        name: "Fr. Paul Paino",
+        role: "Rector | Sanctuary",
+        image: paulpainoImage,
+        ln: "https://twitter.com/PaulPaino"
+      },     
     ]
   },
   //  {
@@ -193,7 +199,7 @@ export function Organizers() {
                       {speaker.role}
                     </p>
                     <a href={speaker.ln} target="_blank">
-                    <FontAwesomeIcon icon={faLinkedin} class="w-6 h-6" />
+                    <FontAwesomeIcon icon={faTwitter} class="w-6 h-6" />
                     </a>
                   </div>
                 ))}
