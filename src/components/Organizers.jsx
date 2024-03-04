@@ -32,7 +32,7 @@ const days = [
       },
       {
         name: "Rev. Dn. John Habibi",
-        role: "Deacon | Sanctuary Church",
+        role: "Deacon | Sanctuary Tulsa",
         image:johnhabibiImage,
         lni: "https://www.instagram.com/deaconforpeace/"
       },
@@ -50,7 +50,7 @@ const days = [
       },
       {
         name: "Fr. Paul Paino",
-        role: "Rector | Sanctuary Church",
+        role: "Rector | Sanctuary Tulsa",
         image: paulpainoImage,
         ln: "https://twitter.com/PaulPaino"
       },
