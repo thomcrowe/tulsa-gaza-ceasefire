@@ -2,9 +2,11 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import logo306 from '@/images/logos/306-phoenix.jpg'
+import logosanc from '@/images/logos/sanctuary.png'
 
 const sponsors = [
   { name: '306 Phoenix House', logo: logo306 },
+  { name: 'Sanctuary', logo: logosanc },
 //  { name: 'Protopia', logo: logoProtopia },
 ]
 
