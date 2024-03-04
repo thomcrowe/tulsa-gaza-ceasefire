@@ -12,36 +12,16 @@ const schedule = [
     date: 'March 30',
     dateTime: '2024-03-30',
     summary:
-      'We will prayerfully walk the distance Palestianian families are walking in search of safety throughout our community',
+      'We will prayerfully walk the distance Palestianian families are walking in search of safety throughout our community. We are currently finalizing our schedule and route for the pilgramage.',
     timeSlots: [
       {
         name: 'Belafonte | 306 S Phoenix',
-        description: 'Gather and begin our pilgramage',
+        description: 'Gather and begin our pilgramage with prayer',
         start: '6:00AM',
       },
       {
-        name: 'Next Stop',
-        description: 'Something here',
-        start: '8:30AM',
-      },
-      {
-        name: 'Where to next John?',
-        description: 'I dunno what we are doing here',
-        start: '11:00AM',
-      },
-      {
-        name: 'Lunch',
-        description: `Bring a snack` ,
-        start: '12:00PM',
-      },
-      {
-        name: 'Stopping somewhere else',
-        description: 'Maybe someone will talk here',
-        start: '2:30PM',
-      },
-      {
-        name: 'I do not know our route or how many stops',
-        description: 'So this is header text Thom or John can update',
+        name: 'Belafonte | 306 S Phoenix',
+        description: 'Gather and end our pilgramage with prayer',
         start: '4:00PM',
       },
     ],
@@ -159,7 +139,7 @@ function TimeSlots({ day, className }) {
             <time dateTime={`${day.dateTime}T${timeSlot.end}-08:00`}>
               {timeSlot.end}
             </time>{' '}
-            PST
+            CST
           </p>
         </li>
       ))}

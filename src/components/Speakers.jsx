@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
@@ -21,7 +21,7 @@ const days = [
         name: "Rev. Dn. John Habibi",
         role: "Deacon | Sanctuary",
         image: johnhabibiImage,
-        ln: "https://www.linkedin.com/in/"
+        ln: "https://www.instagram.com/deaconforpeace/"
       },
     ],
   }
@@ -164,7 +164,7 @@ export function Speakers() {
                       {speaker.role}
                     </p>
                     <a href={speaker.ln} target="_blank">
-                      <FontAwesomeIcon icon={faLinkedin} class="w-6 h-6" />
+                      <FontAwesomeIcon icon={faInstagram} class="w-6 h-6" />
                     </a>
                   </div>
                 ))}

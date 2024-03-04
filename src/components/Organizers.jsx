@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
@@ -23,23 +23,26 @@ const days = [
         name: "Rev. Dn. John Habibi",
         role: "Deacon | Sanctuary",
         image:johnhabibiImage,
-        ln: "https://twitter.com/johnhabibi"
+        ln: "https://www.instagram.com/deaconforpeace/"
       },
       {
         name: "Rachel Kauffman",
         role: "Bio Needed | More Info Here",
         image: rachelkauffmanImage,
+        ln: "https://www.instagram.com/kauffman_rachel/"
       },
       {
         name: "Chris McCabe",
         role: "Owner | Belafonte",
         image: chrismccabeImage,
+        ln: "https://www.instagram.com/h.chrismccabe/"
+
       },
       {
         name: "Fr. Paul Paino",
         role: "Rector | Sanctuary",
         image: paulpainoImage,
-        ln: "https://twitter.com/PaulPaino"
+        ln: "https://www.instagram.com/paulpaino/"
       },     
     ]
   },
@@ -199,7 +202,7 @@ export function Organizers() {
                       {speaker.role}
                     </p>
                     <a href={speaker.ln} target="_blank">
-                    <FontAwesomeIcon icon={faTwitter} class="w-6 h-6" />
+                    <FontAwesomeIcon icon={faInstagram} class="w-6 h-6" />
                     </a>
                   </div>
                 ))}
