@@ -19,7 +19,7 @@ export function Hero() {
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['Start', '3/30 6am'],
-              ['Distance', '19.8 miles'],
+              ['Distance', '22 miles'],
               ['Homebase', 'Belafonte | 306 S Phoenix'],
               ['City', 'Tulsa'],
             ].map(([name, value]) => (

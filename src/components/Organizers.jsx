@@ -5,6 +5,10 @@ import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+<<<<<<< HEAD
+=======
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+>>>>>>> 0dea90b (update bios, pilgrimage length, add sanctuary as sponsor)
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 import { Container } from '@/components/Container'
@@ -13,6 +17,7 @@ import chrismccabeImage from '@/images/avatars/organizers/chris-mccabe.jpg';
 import rachelkauffmanImage from '@/images/avatars/organizers/rachel-kauffman.jpg';
 import johnhabibiImage from '@/images/avatars/organizers/john-habibi.jpg';
 import paulpainoImage from '@/images/avatars/organizers/paul-paino.jpg';
+import thomcroweImage from '@/images/avatars/organizers/thom-crowe.jpeg';
 
 const days = [
   {
@@ -20,48 +25,37 @@ const days = [
     dateTime: '2022-04-04',
     speakers: [
       {
+        name: "Thom Crowe",
+        role: "Deacon | St. John's Episcopal Church",
+        image: thomcroweImage,
+        ln: "https://twitter.com/ThomCrowe"
+      },
+      {
         name: "Rev. Dn. John Habibi",
-        role: "Deacon | Sanctuary",
+        role: "Deacon | Sanctuary Church",
         image:johnhabibiImage,
-        ln: "https://www.instagram.com/deaconforpeace/"
+        lni: "https://www.instagram.com/deaconforpeace/"
       },
       {
         name: "Rachel Kauffman",
         role: "Licensed Professional Counselor",
         image: rachelkauffmanImage,
-        ln: "https://www.instagram.com/kauffman_rachel/"
       },
       {
         name: "Chris McCabe",
-        role: "Owner | Belafonte",
+        role: "Community Builder | Belafonte",
         image: chrismccabeImage,
-        ln: "https://www.instagram.com/h.chrismccabe/"
+        lni: "https://www.instagram.com/h.chrismccabe/"
 
       },
       {
         name: "Fr. Paul Paino",
-        role: "Rector | Sanctuary",
+        role: "Rector | Sanctuary Church",
         image: paulpainoImage,
-        ln: "https://www.instagram.com/paulpaino/"
-      },     
+        ln: "https://twitter.com/PaulPaino"
+      },
     ]
   },
-  //  {
-  //    name: 'Zespół',
-  //    dateTime: '2022-04-05',
-  //    speakers: [
-  //      {
-  //        name: 'Steven McHail',
-  //        role: 'Designer at Globex Corporation',
-  //        image: stevenMchailImage,
-  //      },
-  //      {
-  //        name: 'Jaquelin Isch',
-  //        role: 'UX Design at InGen',
-  //        image: jaquelinIschImage,
-  //      },
-  //    ],
-  //  },
 ]
 
 function ImageClipPaths({ id, ...props }) {
@@ -201,9 +195,16 @@ export function Organizers() {
                     <p className="mt-1 text-base tracking-tight text-slate-500">
                       {speaker.role}
                     </p>
-                    <a href={speaker.ln} target="_blank">
-                    <FontAwesomeIcon icon={faInstagram} class="w-6 h-6" />
-                    </a>
+                    { speaker.ln ?
+                      <a href={speaker.ln} target="_blank">
+                      <FontAwesomeIcon icon={faTwitter} class="w-6 h-6" />
+                      </a>
+                    : '' }
+                    { speaker.lni ?
+                      <a href={speaker.lni} target="_blank">
+                        <FontAwesomeIcon icon={faInstagram} class="w-6 h-6" />
+                      </a>
+                    : '' }
                   </div>
                 ))}
               </Tab.Panel>
