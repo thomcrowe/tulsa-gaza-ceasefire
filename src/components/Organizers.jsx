@@ -24,7 +24,7 @@ const days = [
         name: "Rev. Dn. John Habibi",
         role: "Deacon | Sanctuary Tulsa",
         image:johnhabibiImage,
-        in: "https://www.instagram.com/deaconforpeace/"
+        ig: "https://www.instagram.com/deaconforpeace/"
       },
       {
         name: "Rachel Kauffman",
@@ -35,7 +35,7 @@ const days = [
         name: "Chris McCabe",
         role: "Community Builder | Belafonte",
         image: chrismccabeImage,
-        innerWidth: "https://www.instagram.com/h.chrismccabe/"
+        ig: "https://www.instagram.com/h.chrismccabe/"
 
       },
       {
@@ -196,8 +196,8 @@ export function Organizers() {
                       <FontAwesomeIcon icon={faTwitter} class="w-6 h-6" />
                       </a>
                     : '' }
-                    { speaker.in ?
-                      <a href={speaker.in} target="_blank">
+                    { speaker.ig ?
+                      <a href={speaker.ig} target="_blank">
                         <FontAwesomeIcon icon={faInstagram} class="w-6 h-6" />
                       </a>
                     : '' }
