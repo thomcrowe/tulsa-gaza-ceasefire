@@ -5,10 +5,7 @@ import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-<<<<<<< HEAD
-=======
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
->>>>>>> 0dea90b (update bios, pilgrimage length, add sanctuary as sponsor)
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 import { Container } from '@/components/Container'
