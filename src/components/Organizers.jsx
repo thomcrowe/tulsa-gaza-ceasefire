@@ -22,12 +22,6 @@ const days = [
     dateTime: '2022-04-04',
     speakers: [
       {
-        name: "Thom Crowe",
-        role: "Deacon | St. John's Episcopal Church",
-        image: thomcroweImage,
-        ln: "https://twitter.com/ThomCrowe"
-      },
-      {
         name: "Rev. Dn. John Habibi",
         role: "Deacon | Sanctuary Tulsa",
         image:johnhabibiImage,
@@ -44,6 +38,12 @@ const days = [
         image: chrismccabeImage,
         lni: "https://www.instagram.com/h.chrismccabe/"
 
+      },
+      {
+        name: "Thom Crowe",
+        role: "Deacon",
+        image: thomcroweImage,
+        ln: "https://twitter.com/ThomCrowe"
       },
       {
         name: "Fr. Paul Paino",
