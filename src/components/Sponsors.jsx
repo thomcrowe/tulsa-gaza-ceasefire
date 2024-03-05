@@ -2,18 +2,16 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import logo306 from '@/images/logos/306-phoenix.jpg'
-import logoSanctuary from '@/images/logos/sanctuary-logo.png'
+import logoSanctuary from '@/images/logos/sanctuary.png'
 
 const sponsors = [
   {
     name: 'Belafonte',
     logo: logo306,
-    ln: 'https://www.belafontetulsa.com'
   },
   {
     name: 'Sanctuary Tulsa',
     logo: logoSanctuary,
-    ln: 'https://www.sanctuarytulsa.com'
   },
 //  { name: 'Protopia', logo: logoProtopia },
 ]
