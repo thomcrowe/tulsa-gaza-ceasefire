@@ -24,7 +24,7 @@ export const metadata = {
     default: 'Gaza Casefire Pilgrimage in Tulsa - A Via Dolorosa of Solidarity',
   },
   description:
-    'Join us for the annual Gaza Ceasefire Pilgrimage in Tulsa on March 30th! This powerful event brings together people of all faiths and backgrounds to promote peace, understanding, and reconciliation. Learn about the history of the Gaza Strip and its ongoing struggles, and participate in moving ceremonies and discussions that foster greater empathy and unity. Let us work together towards a more just and peaceful world for all.',
+    'Join us for the global Gaza Ceasefire Pilgrimage in Tulsa on March 30th! This powerful event brings together people of all faiths and backgrounds to promote peace, understanding, and reconciliation. Learn about the history of the Gaza Strip and its ongoing struggles, and participate in moving ceremonies and discussions that foster greater empathy and unity. Let us work together towards a more just and peaceful world for all.',
 }
 
 export default function RootLayout({ children }) {
