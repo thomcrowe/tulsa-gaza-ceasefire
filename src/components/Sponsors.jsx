@@ -8,11 +8,13 @@ const sponsors = [
   {
     name: 'Belafonte',
     logo: logo306,
+    url: 'https://www.belafontetulsa.com'
 
   },
   {
     name: 'Sanctuary Tulsa',
     logo: logoSanctuary,
+    url: 'https://www.sanctuarytulsa.com'
   },
 //  { name: 'Protopia', logo: logoProtopia },
 ]
@@ -30,7 +32,9 @@ export function Sponsors() {
                 key={sponsor.name}
                 className="flex items-center justify-center"
               >
-                <Image src={sponsor.logo} alt={sponsor.name} unoptimized />
+                <a href={sponsor.url} target="_blank">
+                  <Image src={sponsor.logo} alt={sponsor.name} unoptimized />
+                </a>
               </div>
           ))}
         </div>
