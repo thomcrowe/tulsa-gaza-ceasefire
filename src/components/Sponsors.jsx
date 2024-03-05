@@ -2,11 +2,19 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import logo306 from '@/images/logos/306-phoenix.jpg'
-import logosanc from '@/images/logos/sanctuary.png'
+import logoSanctuary from '@/images/logos/sanctuary-logo.png'
 
 const sponsors = [
-  { name: '306 Phoenix House', logo: logo306 },
-  { name: 'Sanctuary', logo: logosanc },
+  {
+    name: 'Belafonte',
+    logo: logo306,
+    ln: 'https://www.belafontetulsa.com'
+  },
+  {
+    name: 'Sanctuary Tulsa',
+    logo: logoSanctuary,
+    ln: 'https://www.sanctuarytulsa.com'
+  },
 //  { name: 'Protopia', logo: logoProtopia },
 ]
 
@@ -19,12 +27,14 @@ export function Sponsors() {
         </h2>
         <div className="mx-auto mt-20 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
           {sponsors.map((sponsor) => (
-            <div
-              key={sponsor.name}
-              className="flex items-center justify-center"
-            >
-              <Image src={sponsor.logo} alt={sponsor.name} unoptimized />
-            </div>
+            <a href={sponsor.ln} target="_blank">
+              <div
+                key={sponsor.name}
+                className="flex items-center justify-center"
+              >
+                <Image src={sponsor.logo} alt={sponsor.name} unoptimized />
+              </div>
+            </a>
           ))}
         </div>
       </Container>
