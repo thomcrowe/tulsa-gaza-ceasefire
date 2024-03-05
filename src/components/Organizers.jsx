@@ -27,7 +27,7 @@ const days = [
       },
       {
         name: "Rachel Kauffman",
-        role: "BLicensed Professional Counselor",
+        role: "Licensed Professional Counselor",
         image: rachelkauffmanImage,
         ln: "https://www.instagram.com/kauffman_rachel/"
       },
