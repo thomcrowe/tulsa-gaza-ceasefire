@@ -5,8 +5,7 @@ import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter,faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
@@ -25,7 +24,7 @@ const days = [
         name: "Rev. Dn. John Habibi",
         role: "Deacon | Sanctuary Tulsa",
         image:johnhabibiImage,
-        lni: "https://www.instagram.com/deaconforpeace/"
+        in: "https://www.instagram.com/deaconforpeace/"
       },
       {
         name: "Rachel Kauffman",
@@ -36,20 +35,20 @@ const days = [
         name: "Chris McCabe",
         role: "Community Builder | Belafonte",
         image: chrismccabeImage,
-        lni: "https://www.instagram.com/h.chrismccabe/"
+        innerWidth: "https://www.instagram.com/h.chrismccabe/"
 
       },
       {
         name: "Thom Crowe",
         role: "Deacon",
         image: thomcroweImage,
-        ln: "https://twitter.com/ThomCrowe"
+        tw: "https://twitter.com/ThomCrowe"
       },
       {
         name: "Fr. Paul Paino",
         role: "Rector | Sanctuary Tulsa",
         image: paulpainoImage,
-        ln: "https://twitter.com/PaulPaino"
+        tw: "https://twitter.com/PaulPaino"
       },
     ]
   },
@@ -192,13 +191,13 @@ export function Organizers() {
                     <p className="mt-1 text-base tracking-tight text-slate-500">
                       {speaker.role}
                     </p>
-                    { speaker.ln ?
-                      <a href={speaker.ln} target="_blank">
+                    { speaker.tw ?
+                      <a href={speaker.tw} target="_blank">
                       <FontAwesomeIcon icon={faTwitter} class="w-6 h-6" />
                       </a>
                     : '' }
-                    { speaker.lni ?
-                      <a href={speaker.lni} target="_blank">
+                    { speaker.in ?
+                      <a href={speaker.in} target="_blank">
                         <FontAwesomeIcon icon={faInstagram} class="w-6 h-6" />
                       </a>
                     : '' }
