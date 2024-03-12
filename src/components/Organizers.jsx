@@ -194,12 +194,12 @@ export function Organizers() {
                     </p>
                     { speaker.tw ?
                       <a href={speaker.tw} target="_blank">
-                      <FontAwesomeIcon icon={faTwitter} class="w-6 h-6" />
+                      <FontAwesomeIcon icon={faTwitter} className="w-6 h-6" />
                       </a>
                     : '' }
                     { speaker.ig ?
                       <a href={speaker.ig} target="_blank">
-                        <FontAwesomeIcon icon={faInstagram} class="w-6 h-6" />
+                        <FontAwesomeIcon icon={faInstagram} className="w-6 h-6" />
                       </a>
                     : '' }
                   </div>
