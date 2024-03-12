@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import logo306 from '@/images/logos/306-phoenix.jpg'
 import logoSanctuary from '@/images/logos/sanctuary.png'
+import mythicPress from '@/images/logos/mythic.png'
 
 const sponsors = [
   {
@@ -15,6 +16,11 @@ const sponsors = [
     name: 'Sanctuary Tulsa',
     logo: logoSanctuary,
     url: 'https://www.sanctuarytulsa.com'
+  },
+  {
+    name: 'Mythic Press',
+    logo: mythicPress,
+    url: 'https://www.mythic.press'
   },
 //  { name: 'Protopia', logo: logoProtopia },
 ]

@@ -164,7 +164,7 @@ export function Speakers() {
                       {speaker.role}
                     </p>
                     <a href={speaker.ln} target="_blank">
-                      <FontAwesomeIcon icon={faInstagram} class="w-6 h-6" />
+                      <FontAwesomeIcon icon={faInstagram} className="w-6 h-6" />
                     </a>
                   </div>
                 ))}
