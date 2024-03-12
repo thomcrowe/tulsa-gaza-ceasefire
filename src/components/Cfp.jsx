@@ -30,7 +30,7 @@ export function CFP() {
                 Journey with Us
               </p>
               <p className="mt-4 text-lg tracking-tight">
-              You can travvel the whole route with us, or simply join us for shorter sections. Whilst this is a Christian peace & justice pilgrimage, we are committed to extending a hand of hospitality and friendship to people of all, any, or no faith.
+              You can travel the whole route with us, or simply join us for shorter sections. Whilst this is a Christian peace & justice pilgrimage, we are committed to extending a hand of hospitality and friendship to people of all, any, or no faith.
 
               </p>
             </div>

@@ -17,7 +17,7 @@ import thomcroweImage from '@/images/avatars/organizers/thom-crowe.jpeg';
 
 const days = [
   {
-    name: 'Pilgrimage Organizers',
+    name: 'Organizers',
     dateTime: '2022-04-04',
     speakers: [
       {
