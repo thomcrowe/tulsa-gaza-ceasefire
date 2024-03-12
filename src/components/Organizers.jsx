@@ -17,7 +17,7 @@ import thomcroweImage from '@/images/avatars/organizers/thom-crowe.jpeg';
 
 const days = [
   {
-    name: 'Walk Organizers',
+    name: 'Pilgrimage Organizers',
     dateTime: '2022-04-04',
     speakers: [
       {
@@ -25,6 +25,12 @@ const days = [
         role: "Deacon | Sanctuary Tulsa",
         image:johnhabibiImage,
         ig: "https://www.instagram.com/deaconforpeace/"
+      },
+      {
+        name: "Thom Crowe",
+        role: "Deacon",
+        image: thomcroweImage,
+        tw: "https://twitter.com/ThomCrowe"
       },
       {
         name: "Rachel Kauffman",
@@ -38,12 +44,7 @@ const days = [
         ig: "https://www.instagram.com/h.chrismccabe/"
 
       },
-      {
-        name: "Thom Crowe",
-        role: "Deacon",
-        image: thomcroweImage,
-        tw: "https://twitter.com/ThomCrowe"
-      },
+
       {
         name: "Fr. Paul Paino",
         role: "Rector | Sanctuary Tulsa",

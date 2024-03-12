@@ -12,7 +12,7 @@ const schedule = [
     date: 'March 30',
     dateTime: '2024-03-30',
     summary:
-      'We will prayerfully walk the distance Palestianian families are walking in search of safety throughout our community. We are currently finalizing our schedule and route for the pilgramage.',
+      'We will prayerfully journey the distance Palestianian families are traveling in search of safety throughout our community. We are currently finalizing our schedule and route for the pilgramage.',
     timeSlots: [
       {
         name: 'Belafonte | 306 S Phoenix',
@@ -169,7 +169,7 @@ export function Schedule() {
             With our bodies we will prayerfully map Gaza onto our own cities.
           </h2>
           <p className="mt-4 font-display text-xl tracking-tight">
-          “The power of the pilgrimage is to allow the geography of the horror happening in Gaza to become real in our home cities. To flee Gaza city to hope to find refuge in Rafah in the south, that’s only the distance of Hillary’s Boat Harbour to Freemantle in my home town. You’d still hear the blast of bombs destroying your home. You could see the clouds of dust and debris. 
+          “The power of the pilgrimage is to allow the geography of the horror happening in Gaza to become real in our home cities. To flee Gaza city to hope to find refuge in Rafah in the south, that’s only the distance of Hillary’s Boat Harbour to Freemantle in my home town. You’d still hear the blast of bombs destroying your home. You could see the clouds of dust and debris.
           <p className="mt-4 font-display text-xl tracking-tight">“On pilgrimage, in solidarity, we can start to transfigure our vicarious trauma into action as we realise in our bodies that 2 million displaced people can’t find shelter from bombardment no matter where they are in that small area.”</p>
           <p className="mt-4 font-display text-xl tracking-tight">— Jarrod McKenna </p>
           </p>

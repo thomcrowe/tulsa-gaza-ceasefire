@@ -27,10 +27,10 @@ export function CFP() {
           <div className="relative mx-auto grid max-w-2xl grid-cols-1 gap-x-32 gap-y-14 xl:max-w-none xl:grid-cols-2">
             <div>
               <p className="font-display text-4xl font-medium tracking-tighter text-red-600 sm:text-5xl">
-                Walk with Us
+                Journey with Us
               </p>
               <p className="mt-4 text-lg tracking-tight">
-              You can walk the whole route with us, or simply join us for shorter sections. Whilst this is a Christian peace & justice pilgrimage, we are committed to extending a hand of hospitality and friendship to people of all, any, or no faith.
+              You can travvel the whole route with us, or simply join us for shorter sections. Whilst this is a Christian peace & justice pilgrimage, we are committed to extending a hand of hospitality and friendship to people of all, any, or no faith.
 
               </p>
             </div>
