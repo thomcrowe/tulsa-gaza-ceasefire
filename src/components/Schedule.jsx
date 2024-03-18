@@ -4,8 +4,24 @@ import { useEffect, useState } from 'react'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
+import { Button } from '@/components/Button'
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Container } from '@/components/Container'
+
+function ArrowRightIcon(props) {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" {...props}>
+      <path
+        d="m14 7 5 5-5 5M19 12H5"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
 
 const schedule = [
   {
@@ -252,10 +268,21 @@ export function Schedule() {
             With our bodies we will prayerfully map Gaza onto our own cities.
           </h2>
           <p className="mt-4 font-display text-xl tracking-tight">
-          “The power of the pilgrimage is to allow the geography of the horror happening in Gaza to become real in our home cities. To flee Gaza city to hope to find refuge in Rafah in the south, that’s only the distance of Hillary’s Boat Harbour to Freemantle in my home town. You’d still hear the blast of bombs destroying your home. You could see the clouds of dust and debris.
-          <p className="mt-4 font-display text-xl tracking-tight">“On pilgrimage, in solidarity, we can start to transfigure our vicarious trauma into action as we realise in our bodies that 2 million displaced people can’t find shelter from bombardment no matter where they are in that small area.”</p>
-          <p className="mt-4 font-display text-xl tracking-tight">— Jarrod McKenna </p>
+            “The power of the pilgrimage is to allow the geography of the horror happening in Gaza to become real in our home cities. To flee Gaza city to hope to find refuge in Rafah in the south, that’s only the distance of Hillary’s Boat Harbour to Freemantle in my home town. You’d still hear the blast of bombs destroying your home. You could see the clouds of dust and debris.
           </p>
+          <p className="mt-4 font-display text-xl tracking-tight">
+            “On pilgrimage, in solidarity, we can start to transfigure our vicarious trauma into action as we realise in our bodies that 2 million displaced people can’t find shelter from bombardment no matter where they are in that small area.”</p>
+          <p className="mt-4 font-display text-xl tracking-tight">
+            — Jarrod McKenna </p>
+
+            <div className="mt-5 flex py-2.5 pr-2.5">
+            <Button href="https://www.facebook.com/events/1094111395166350/">
+              <span className="sr-only sm:not-sr-only">Register</span>
+              <span className="sm:hidden">
+                <ArrowRightIcon className="h-6 w-6" />
+              </span>
+            </Button>
+            </div>
         </div>
       </Container>
       <div className="relative mt-14 sm:mt-24">
