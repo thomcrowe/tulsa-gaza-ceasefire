@@ -13,7 +13,16 @@ export function Hero() {
           </h1>
           <div className="mt-6 space-y-6 font-display text-xl tracking-tight">
             <p>
-            Our prayer is that this Lent as we meditate on the life and passion of Jesus, we might deepen our solidarity with what our Palestinian sisters and brothers are experiencing daily. We are committed to taking seriously the body of Christ in Palestine’s costly testimony to the truth of what is happening. Like Israeli human rights organisations and Jewish peace groups, we too want to accurately name what Palestinians are undergoing as fitting the legal definition of apartheid and military occupation. We heed the wisdom of experts who overwhelmingly identify genocidal intent in the ongoing war against Gaza and we are committed to its prevention. As Jesus teaches, we are seeking to “simply let our yes mean yes” and speak plainly the truth. We do so following the lead of so many Palestinians, including Palestinian Christians who have been on the forefront of the nonviolent movement, in calling for an enduring ceasefire and an end to occupation so a healing peace can finally begin.
+              Our prayer is that this Lent as we meditate on the life and passion of Jesus, we might deepen our
+              solidarity with what our Palestinian sisters and brothers are experiencing daily. We are committed to
+              taking seriously the body of Christ in Palestine’s costly testimony to the truth of what is happening. As
+              Christians we must accurately name what Palestinians are undergoing as fitting the legal definition of
+              apartheid and military occupation. We heed the wisdom of experts who overwhelmingly identify genocidal
+              intent in the ongoing war against Gaza and we are committed to its prevention. As Jesus teaches, we are
+              seeking to “simply let our yes mean yes” and speak plainly the truth. We do so following the lead of so
+              many Palestinians, including Palestinian Christians who have been on the forefront of the nonviolent
+              movement, in calling for an enduring ceasefire and an end to occupation so a healing peace can finally
+              begin.
             </p>
           </div>
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
