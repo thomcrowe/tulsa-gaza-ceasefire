@@ -30,8 +30,7 @@ export function CFP() {
                 Journey with Us
               </p>
               <p className="mt-4 text-lg tracking-tight">
-              You can travvel the whole route with us, or simply join us for shorter sections. Whilst this is a Christian peace & justice pilgrimage, we are committed to extending a hand of hospitality and friendship to people of all, any, or no faith.
-
+              You can travel the whole route with us, or simply join us for shorter sections. Whilst this is a Christian peace & justice pilgrimage, we are committed to extending a hand of hospitality and friendship to people of all, any, or no faith.
               </p>
             </div>
             <form>
@@ -41,6 +40,17 @@ export function CFP() {
               <div className="mt-5 flex py-2.5 pr-2.5">
                 <Button href="https://www.facebook.com/events/1094111395166350/">
                   <span className="sr-only sm:not-sr-only">Register</span>
+                  <span className="sm:hidden">
+                    <ArrowRightIcon className="h-6 w-6" />
+                  </span>
+                </Button>
+              </div>
+              <h3 className="text-lg font-semibold tracking-tight">
+                Make a Tax Exempt Donation <span aria-hidden="true">&darr;</span>
+              </h3>
+              <div className="mt-5 flex py-2.5 pr-2.5">
+                <Button href="https://give.tithe.ly/?formId=397d898b-42c9-4f4c-a336-e6aa86de93d7&locationId=d47f96fa-6d78-480e-b9d2-d9bd85d79323&fundId=f38eafef-c7fe-4818-afdb-f15eecd370eb&frequency=one-time">
+                  <span className="sr-only sm:not-sr-only">Donate</span>
                   <span className="sm:hidden">
                     <ArrowRightIcon className="h-6 w-6" />
                   </span>
