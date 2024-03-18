@@ -29,7 +29,7 @@ export function Fundraise() {
             </p>
 
             <p className="mt-4 font-display text-xl tracking-tight">
-                In alignment with the Gaza Ceasefire Pilgrimage's fundraising targets of Relief, Refugees, and Arrival of Relief and Refuge, we have prayerfully selected two organizations for which to fundraise:
+                In alignment with the Gaza Ceasefire Pilgrimage&apos;s fundraising targets of Relief, Refugees, and Arrival of Relief and Refuge, we have prayerfully selected two organizations for which to fundraise:
             </p>
 
             <ul>

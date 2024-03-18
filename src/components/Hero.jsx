@@ -9,7 +9,7 @@ export function Hero() {
       <Container className="relative">
         <div className="mx-auto max-w-xl lg:max-w-4xl lg:px-12">
           <h1 className="font-display text-2xl font-bold tracking-tighter text-red-700 sm:text-6xl">
-            Gaza Ceasefire Pilgramige | Tulsa, OK
+            Gaza Ceasefire Pilgrimage | Tulsa, OK
           </h1>
           <div className="mt-6 space-y-6 font-display text-xl tracking-tight">
             <p>
