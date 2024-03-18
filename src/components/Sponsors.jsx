@@ -45,7 +45,9 @@ export function Sponsors() {
           ))}
         </div>
         <div className="mx-auto mt-20 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
-          <h3>Would you like to <a href="3" target='_blank'>sponsor this pilgrimage?</a></h3>
+          <p>
+            Email us to sponsor this pilgrimage: <a href="3" target='_blank'><i>info@tulsagcp.com</i></a>
+          </p>
         </div>
       </Container>
     </section>

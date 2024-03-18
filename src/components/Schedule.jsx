@@ -16,13 +16,93 @@ const schedule = [
     timeSlots: [
       {
         name: 'Belafonte | 306 S Phoenix',
-        description: 'Gather and begin our pilgramage with prayer',
+        distance: "0.5 miles",
+        // description: 'Gather and begin our pilgramage with prayer',
         start: '6:00AM',
       },
       {
-        name: 'Belafonte | 306 S Phoenix',
-        description: 'Gather and end our pilgramage with prayer',
+        name: 'Riverside Reflection | Riverside Dr & S Lawton Ave',
+        distance: "3.67 miles",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '7:00AM',
+      },
+      {
+        name: 'Perryman Cemetery | E 32nd & S Utica Ave',
+        distance: "0.77 miles",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '8:15AM',
+      },
+      {
+        name: 'Walk of Wealth | S Woodward Blvd & E 31st St',
+        distance: "1.73 miles",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '8:30AM',
+      },
+      {
+        name: 'Creek Nation Council Oak Tree | W 18th St & S Cheyenne Ave',
+        distance: "1.5 miles",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '9:30AM',
+      },
+      {
+        name: 'Oaklawn Cemetery | W 11th St & S Peoria Ave',
+        distance: "1.31 miles",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '10:15AM',
+      },
+      {
+        name: 'Drexel Building | E 3rd St & S Main St',
+        distance: "0.3 miles",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '10:45M',
+      },
+      {
+        name: 'Tulsa County Courthouse | W 6th St & S Boulder Ave W',
+        distance: "1 mile",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '11:00AM',
+      },
+      {
+        name: 'Reconciliation Park | N Detroit Ave & E Cameron St',
+        distance: ".31 miles",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '11:30AM',
+      },
+      {
+        name: 'Vernon AME & Greenwood | N Greenwood Ave & E Archer St',
+        distance: ".35 miles",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '12:30PM',
+      },
+      {
+        name: 'Osage Prairie "Trail of Tears" | E Independence Pl & N Greenwood Ave',
+        distance: " 2.9 miles",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '12:45PM',
+      },
+      {
+        name: "Jack's Prairie Chapel | E 36th St N & N Kenosha Ave",
+        distance: "0.6 miles",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '2:00PM',
+      },
+      {
+        name: 'M.L.K. Jr Blvd Peace Walk | M.L.K Jr Blvd & W 36th St N',
+        distance: "3.3 miles",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '2:30PM',
+      },
+      {
+        name: 'Tate Brady Mansion | N Denver Ave & W Golden St',
+        distance: "2.8 miles",
+        // description: 'Gather and end our pilgramage with prayer',
         start: '4:00PM',
+      },
+      {
+        name: 'Belafonte | 3062. S Phoenix',
+        distance: "0 miles",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '5:30PM',
       },
     ],
   },
@@ -126,11 +206,14 @@ function TimeSlots({ day, className }) {
           <h4 className="text-lg font-semibold tracking-tight text-blue-900">
             {timeSlot.name}
           </h4>
-          {timeSlot.description && (
+          <p className="mt-1 tracking-tight text-blue-900">
+              {timeSlot.distance}
+          </p>
+          {/* {timeSlot.description && (
             <p className="mt-1 tracking-tight text-blue-900">
               {timeSlot.description}
             </p>
-          )}
+          )} */}
           <p className="mt-1 font-mono text-sm text-slate-500">
             <time dateTime={`${day.dateTime}T${timeSlot.start}-08:00`}>
               {timeSlot.start}
