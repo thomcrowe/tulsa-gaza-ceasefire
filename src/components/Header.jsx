@@ -20,7 +20,7 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href="https://www.facebook.com/events/1094111395166350/">Journey with us!</Button>
+          <Button href="https://docs.google.com/document/d/1A3Kwu1S0_aMiMMytuKs78NIFfR8aQrfWe7YpaAaDzhk/edit?usp=sharing">Pilgrimage Resources!</Button>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
           <Button href="https://give.tithe.ly/?formId=397d898b-42c9-4f4c-a336-e6aa86de93d7&locationId=d47f96fa-6d78-480e-b9d2-d9bd85d79323&fundId=f38eafef-c7fe-4818-afdb-f15eecd370eb&frequency=one-time">Make a donation!!</Button>
