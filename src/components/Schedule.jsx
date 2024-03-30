@@ -32,27 +32,15 @@ const schedule = [
     timeSlots: [
       {
         name: 'Belafonte | 306 S Phoenix',
-        distance: "0.5 miles",
+        distance: "4.17 miles",
         // description: 'Gather and begin our pilgramage with prayer',
         start: '6:00AM',
       },
       {
-        name: 'Riverside Reflection | Riverside Dr & S Lawton Ave',
-        distance: "3.67 miles",
-        // description: 'Gather and end our pilgramage with prayer',
-        start: '7:00AM',
-      },
-      {
         name: 'Perryman Cemetery | E 32nd & S Utica Ave',
-        distance: "0.77 miles",
+        distance: "2.5 miles",
         // description: 'Gather and end our pilgramage with prayer',
         start: '8:15AM',
-      },
-      {
-        name: 'Walk of Wealth | S Woodward Blvd & E 31st St',
-        distance: "1.73 miles",
-        // description: 'Gather and end our pilgramage with prayer',
-        start: '8:30AM',
       },
       {
         name: 'Creek Nation Council Oak Tree | W 18th St & S Cheyenne Ave',
@@ -62,27 +50,21 @@ const schedule = [
       },
       {
         name: 'Oaklawn Cemetery | W 11th St & S Peoria Ave',
-        distance: "1.31 miles",
+        distance: "2.61 miles",
         // description: 'Gather and end our pilgramage with prayer',
         start: '10:15AM',
-      },
-      {
-        name: 'Drexel Building | E 3rd St & S Main St',
-        distance: "0.3 miles",
-        // description: 'Gather and end our pilgramage with prayer',
-        start: '10:45M',
-      },
-      {
-        name: 'Tulsa County Courthouse | W 6th St & S Boulder Ave W',
-        distance: "1 mile",
-        // description: 'Gather and end our pilgramage with prayer',
-        start: '11:00AM',
       },
       {
         name: 'Reconciliation Park | N Detroit Ave & E Cameron St',
         distance: ".31 miles",
         // description: 'Gather and end our pilgramage with prayer',
         start: '11:30AM',
+      },
+      {
+        name: 'Lunch at Reconciliation Park | N Detroit Ave & E Cameron St',
+        distance: "0 miles",
+        // description: 'Gather and end our pilgramage with prayer',
+        start: '12:00PM',
       },
       {
         name: 'Vernon AME & Greenwood | N Greenwood Ave & E Archer St',
@@ -92,27 +74,15 @@ const schedule = [
       },
       {
         name: 'Osage Prairie "Trail of Tears" | E Independence Pl & N Greenwood Ave',
-        distance: " 2.9 miles",
+        distance: " 3.5 miles",
         // description: 'Gather and end our pilgramage with prayer',
         start: '12:45PM',
       },
       {
-        name: "Jack's Prairie Chapel | E 36th St N & N Kenosha Ave",
-        distance: "0.6 miles",
-        // description: 'Gather and end our pilgramage with prayer',
-        start: '2:00PM',
-      },
-      {
         name: 'M.L.K. Jr Blvd Peace Walk | M.L.K Jr Blvd & W 36th St N',
-        distance: "3.3 miles",
+        distance: "6.1 miles",
         // description: 'Gather and end our pilgramage with prayer',
         start: '2:30PM',
-      },
-      {
-        name: 'Tate Brady Mansion | N Denver Ave & W Golden St',
-        distance: "2.8 miles",
-        // description: 'Gather and end our pilgramage with prayer',
-        start: '4:00PM',
       },
       {
         name: 'Belafonte | 3062. S Phoenix',
